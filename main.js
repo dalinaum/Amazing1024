@@ -10,10 +10,10 @@ App.once('ready', function() {
   if (process.platform == 'darwin') {
     template = [
       {
-        label: 'IRCCloud',
+        label: 'Amazing1024',
         submenu: [
           {
-            label: 'About IRCCloud',
+            label: 'About Amazing1024',
             selector: 'orderFrontStandardAboutPanel:'
           },
           {
@@ -27,7 +27,7 @@ App.once('ready', function() {
             type: 'separator'
           },
           {
-            label: 'Hide IRCCloud',
+            label: 'Hide Amazing1024',
             accelerator: 'Command+H',
             selector: 'hide:'
           },
@@ -153,13 +153,13 @@ App.once('ready', function() {
           {
             label: 'Learn More',
             click: function() {
-              Shell.openExternal('https://github.com/dalinaum/IRCCloud');
+              Shell.openExternal('https://github.com/dalinaum/Amazing1024');
             }
           },
           {
             label: 'Search Issues',
             click: function() {
-              Shell.openExternal('https://github.com/dalinaum/IRCCloud/issues');
+              Shell.openExternal('https://github.com/dalinaum/Amazing1024/issues');
             }
           }
         ]
@@ -227,13 +227,13 @@ App.once('ready', function() {
           {
             label: 'Learn More',
             click: function() {
-              Shell.openExternal('https://github.com/dalinaum/IRCCloud')
+              Shell.openExternal('https://github.com/dalinaum/Amazing1024')
             }
           },
           {
             label: 'Search Issues',
             click: function() {
-              Shell.openExternal('https://github.com/dalinaum/IRCCloud/issues')
+              Shell.openExternal('https://github.com/dalinaum/Amazing1024/issues')
             }
           }
         ]
